@@ -1,0 +1,24 @@
+div{
+    background-color: silver;
+}
+strong{
+    font-size: 24pt;
+}
+p,ul{
+
+    background-color: green;
+    font-size: 24pt;
+}
+
+#cool , .shiny{
+
+    background-color: silver;
+}
+
+a:hover{
+    background-color: silver;
+}
+
+ul a {
+    color: orange;
+}
