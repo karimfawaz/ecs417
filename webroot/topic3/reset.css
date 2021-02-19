@@ -1,0 +1,55 @@
+body,
+div,
+head,
+header,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+hgroup,
+nav,
+a,
+figure,
+img,
+figcaption,
+section,
+article,
+dl,
+dt,
+dd,
+strong {
+    animation: none;
+    animation-name: none;
+    background: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0;
+    font-family: inherit;
+    letter-spacing: normal;
+    margin: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    max-height: none;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    opacity: 1;
+    padding: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: inherit;
+    visibility: visible;
+    white-space: normal;
+    width: auto;
+    word-spacing: normal;
+}
