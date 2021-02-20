@@ -25,31 +25,24 @@ dt,
 dd,
 strong {
     animation: none;
-    animation-name: none;
-    background: 0;
-    background-color: transparent;
+    background-attachment: scroll;
     background-image: none;
-    border: 0;
-    font-family: inherit;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-color: inherit;
+    content: normal;
+    cursor: auto;
+    direction: ltr;
     letter-spacing: normal;
-    margin: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
     max-height: none;
     max-width: none;
     min-height: 0;
     min-width: 0;
     opacity: 1;
-    padding: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    text-align: inherit;
+    overflow: visible;
     visibility: visible;
     white-space: normal;
-    width: auto;
     word-spacing: normal;
 }
