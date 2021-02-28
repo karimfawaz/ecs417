@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+caption {
+    font-weight: bolder;
+    background-color: teal;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 110%;
+}
+
+table {
+    border: solid 1pt black;
+}
+
+thead,
+tfoot {
+    background-color: gainsboro;
+}
+
+th,
+td {
+    border: solid 1pt black;
+    vertical-align: middle;
+}
+
+th {
+    font-weight: 900;
+}

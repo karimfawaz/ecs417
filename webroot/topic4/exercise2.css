@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 160px;
+    height: 175px;
+    object-fit: fill;
+    border-radius: 10%;
+}
+
+td {
+    vertical-align: middle;
+}
+
+table {
+    border: solid 1pt black;
+}
+
+caption {
+    color: white;
+    background-color: darkred;
+    font-size: 125%;
+    font-weight: bolder;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+thead {
+    background-color: lightgrey;
+}
+
+tr,
+td,
+th,
+tbody {
+    border: solid 1pt black;
+    margin: 5%;
+}
