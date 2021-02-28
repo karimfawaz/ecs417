@@ -1,21 +1,30 @@
 body {
     font-family: sans-serif;
     text-align: center;
+    margin: 2%;
 }
 
-img {
-    width: 160px;
-    height: 175px;
-    object-fit: fill;
-    border-radius: 10%;
+table {
+    padding: 1%;
 }
 
 td {
     vertical-align: middle;
 }
 
-table {
-    border: solid 1pt black;
+table,
+td,
+tr {
+    border: solid 2px lightgray;
+}
+
+th,
+div {
+    border: solid 1px black;
+}
+
+div {
+    display: inline-block;
 }
 
 caption {
@@ -23,18 +32,31 @@ caption {
     background-color: darkred;
     font-size: 125%;
     font-weight: bolder;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2%;
 }
 
 thead {
     background-color: lightgrey;
 }
 
-tr,
-td,
-th,
-tbody {
-    border: solid 1pt black;
-    margin: 5%;
+.imgbox-left,
+.imgbox-right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imgbox-left {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.imgbox-right {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+img {
+    border-radius: 15%;
+    object-fit: fill;
+    margin: 2px;
 }
