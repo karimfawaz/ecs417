@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <form method="GET" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+    <form method="POST" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
         <fieldset>
             <legend>Shirt Order Form</legend>
             <fieldset class="form1">
@@ -31,46 +31,55 @@
                 <br>
                 <input type="radio" name="sleeves" checked value="short">Short<br>
                 <input type="radio" name="sleeves" value="long">Long<br>
-                <h2>Choose Shirt Colour</h2>
-
-                <input type="color">
-
-                <h2>Quantity</h2>
-                <input type="number" min="1" max="10">
-                <h2>Date Requested</h2>
-                <input type="date">
+                <label for="colour-select">Choose Shirt Colour</label>
+                <br>
+                <input type="color" name="color" id="colour-select">
+                <br>
+                <label for="choose-quantity">Quantity</label>
+                <br>
+                <input name="quantity" id="quantity-select" type="number" min="1" max="10">
+                <br>
+                <label for="date-select">Date Requested</label>
+                <br>
+                <input type="date" name="date" id="date-select">
 
             </fieldset>
 
             <fieldset class="form2">
-                <h2>Name</h2>
-                <input type="text">
-                <h2>Email Address</h2>
-                <input type="email">
-                <h2>Telephone Number</h2>
-                <input type="tel" pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$
-                ">
-                <label> Example: 44-207-882-1234</label>
+                <label for="name-select">Name</label>
+                <br>
+                <input type="text" name="name" id="name-select"><br>
+                <label for="email-select">Email Address</label><br>
+                <input type="email" name="email" id="email-select">
+                <br>
+                <label for="telephone-select">Telephone Number</label>
+                <br>
+                <input type="text" pattern="[4]{2}[-][0-9]{3}[-][0-9]{3}[-][0-9]{4}" required="" name="telephone" id="telephone-select"> Example: 44-207-882-1234
 
             </fieldset>
             <fieldset class="form3">
-                <h2>Address</h2>
-                <input type="text">
-                <h2>City</h2>
-                <input type="text" name="city" list="cities">
+                <label for="address-select">Address</label>
+                <br>
+                <input type="text" name="address" id="address-select">
+                <br>
+                <label for="city-select">City</label>
+                <br>
+                <input type="text" name="city" list="cities" id="city-select">
                 <datalist id="cities">
-                    <option>London</option>
-                    <option>Los Angeles</option>
-                    <option>New York</option>
-                    <option>Paris</option>
+                    <option value="London">London</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="New York">New York</option>
+                    <option value="Paris">Paris</option>
                 </datalist>
-                <h2>Postcode</h2>
-                <input type="text">
+                <br>
+                <label for="postcode-select">Postcode</label>
+                <br>
+                <input type="text" name="postcode" id="postcode-select">
 
             </fieldset>
             <fieldset class="form4">
 
-                <label>Please keep me informed about future shirt offerings</label> <input type="checkbox" value="accept">
+                <label>Please keep me informed about future shirt designs</label> <input type="checkbox" name="accept">
                 <br>
                 <div id="buttons">
 
