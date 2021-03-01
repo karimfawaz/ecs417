@@ -1,5 +1,6 @@
-div {
+fieldset {
     border: solid 1px green;
+    background-color: #e5ffd3;
     margin: 1%;
     padding: 1%;
 }
@@ -15,9 +16,26 @@ legend {
 
 body {
     font-family: sans-serif;
-    background-color: lightgreen;
 }
 
 .form4 {
     background-color: white;
+}
+
+form {
+    width: 60%;
+    margin-left: 22.5%;
+    margin-right: auto;
+}
+
+#buttons {
+    margin: auto;
+    width: 50%;
+    padding: 3%;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 1%;
 }

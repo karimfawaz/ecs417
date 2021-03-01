@@ -14,21 +14,23 @@
     <form method="GET" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
         <fieldset>
             <legend>Shirt Order Form</legend>
-            <div class="form1">
+            <fieldset class="form1">
 
-                <h2>Shirt Size</h2>
-
-                <select name="size">
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
+                <label for="size-select">Shirt Size</label>
+                <br>
+                <select name="size" id="size-select">
+                    <option value="Choose Size"> Choose Size</option>
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
                 </select>
                 <br>
-                <h2>Sleeves</h2>
-                <input type="radio" name="sleeves" checked>Short<br>
-                <input type="radio" name="sleeves">Long<br>
+                <label> Sleeves</label>
+                <br>
+                <input type="radio" name="sleeves" checked value="short">Short<br>
+                <input type="radio" name="sleeves" value="long">Long<br>
                 <h2>Choose Shirt Colour</h2>
 
                 <input type="color">
@@ -38,9 +40,9 @@
                 <h2>Date Requested</h2>
                 <input type="date">
 
-            </div>
+            </fieldset>
 
-            <div class="form2">
+            <fieldset class="form2">
                 <h2>Name</h2>
                 <input type="text">
                 <h2>Email Address</h2>
@@ -50,30 +52,35 @@
                 ">
                 <label> Example: 44-207-882-1234</label>
 
-            </div>
-            <div class="form3">
+            </fieldset>
+            <fieldset class="form3">
                 <h2>Address</h2>
                 <input type="text">
                 <h2>City</h2>
                 <input type="text" name="city" list="cities">
                 <datalist id="cities">
-                <option>London</option>
-                <option>Los Angeles</option>
-                <option>New York</option>
-                <option>Paris</option>
+                    <option>London</option>
+                    <option>Los Angeles</option>
+                    <option>New York</option>
+                    <option>Paris</option>
                 </datalist>
                 <h2>Postcode</h2>
                 <input type="text">
 
-            </div>
-            <div class="form4">
+            </fieldset>
+            <fieldset class="form4">
 
-                <label>Please keep me informed about future shirt offerings</label> <input type="checkbox">
+                <label>Please keep me informed about future shirt offerings</label> <input type="checkbox" value="accept">
                 <br>
-                <input type="submit">
-                <input type="reset">
+                <div id="buttons">
 
-            </div>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear Form</button>
+                </div>
+
+
+            </fieldset>
         </fieldset>
     </form>
 
