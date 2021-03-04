@@ -1,7 +1,55 @@
+/* General */
+
+nav,
+#Skills h2,
+#Hobbies h2,
+#Movies h2 {
+    background-color: lightgreen;
+    padding: 1%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
 ul {
     list-style-type: none;
 }
 
-a {
+
+/* NAV */
+
+#Title {
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+nav li {
+    display: inline;
+}
+
+nav {
+    float: left;
+    width: 100%;
     display: block;
+    margin-bottom: 2%;
+}
+
+
+/* Floats */
+
+.left {
+    float: left;
+    width: 33.3%;
+    position: relative;
+}
+
+.right {
+    float: right;
+    width: 33.3%;
+}
+
+.middle {
+    margin-left: 33.3%;
+    margin-right: 33.3%;
 }
