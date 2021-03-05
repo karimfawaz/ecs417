@@ -21,11 +21,13 @@ ul {
 
 #Title {
     font-weight: bolder;
-    font-size: 125%;
+    font-size: 150%;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 110%;
 }
 
 nav {
@@ -36,20 +38,64 @@ nav {
 }
 
 
-/* Floats */
+/* Column Layout */
+
+.middle {
+    margin-left: 20em;
+    margin-right: 20em;
+}
 
 .left {
-    float: left;
-    width: 33.3%;
-    position: relative;
+    position: absolute;
+    left: 0em;
+    top: 5em;
+    width: 15em;
 }
 
 .right {
-    float: right;
-    width: 33.3%;
+    position: absolute;
+    right: 0em;
+    top: 5em;
+    width: 15em;
 }
 
-.middle {
-    margin-left: 33.3%;
-    margin-right: 33.3%;
+
+/* Left Column Edits */
+
+.left div {
+    margin-bottom: 7.5%;
+    padding: 7.5%;
 }
+
+#Links {
+    background-color: #ebebeb;
+}
+
+#Links li {
+    font-size: 125%;
+    padding-bottom: 5%;
+}
+
+#Research {
+    color: #948178;
+    background-color: #ebdbd3;
+}
+
+#Skills {
+    padding: 7.5%;
+    background-color: #ebdbd3;
+}
+
+#Skills ul {
+    background-color: white;
+}
+
+#Skills li {
+    align-items: center;
+    display: flex;
+    font-size: 70%;
+    margin-bottom: 2em;
+}
+
+
+/* Middle Column Edits */
