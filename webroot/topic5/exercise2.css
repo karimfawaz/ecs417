@@ -1,0 +1,203 @@
+/* General */
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 500;
+}
+
+.section-title {
+    background-color: lightgreen;
+    padding: 5%;
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+
+/* Column Formatting */
+
+.container {
+    position: relative;
+    margin-top: 1em;
+}
+
+.main-column {
+    margin-top: 2%;
+    margin-left: 19em;
+    margin-right: 19em;
+}
+
+.left-column {
+    position: absolute;
+    left: 0em;
+    top: 0em;
+    width: 15em;
+}
+
+.left-column div,
+.right-column div {
+    margin-bottom: 7.5%;
+    padding: 1em;
+}
+
+aside {
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    width: 15em;
+}
+
+
+/* Top Nav */
+
+header nav {
+    display: block;
+    background-color: lightgreen;
+    padding: 1em;
+    margin-bottom: 1%;
+    align-items: center;
+    float: initial;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 3%;
+    font-size: 125%;
+}
+
+#Title {
+    font-weight: bolder;
+    font-size: 200%;
+}
+
+
+/* About Myself Main Column */
+
+#about-me section {
+    display: flex;
+    align-items: flex-start;
+}
+
+#about-me p {
+    width: 70%;
+    padding-right: 2em;
+    margin-right: 10%;
+}
+
+#about-me strong {
+    font-size: 125%;
+}
+
+#about-me img {
+    width: 30%;
+    float: right;
+}
+
+
+/* Education Main Column */
+
+#education h2 {
+    font-size: 125%;
+}
+
+#education li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    width: 40%;
+}
+
+#education p {
+    margin-left: 10%;
+}
+
+
+/* Research Left Column */
+
+#research {
+    background-color: #ebe8d3;
+    color: #948178;
+    margin-top: -0.5em;
+}
+
+
+/* Links Left Column */
+
+#links {
+    background-color: #f3f3f3;
+}
+
+#links a {
+    display: block;
+}
+
+
+/* Skills Left Column */
+
+#skills {
+    background-color: #f3f3f3;
+}
+
+#skills-list {
+    background-color: white;
+    padding-top: 5%;
+}
+
+#skills img {
+    margin-right: 0.5em;
+    float: left;
+    height: max-content;
+    width: 30%;
+}
+
+#skills-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+/* Hobbies Right Column */
+
+#hobbies {
+    background-color: #f3f3f3;
+    margin-top: -0.5em;
+}
+
+#hobbies-list {
+    background-color: white;
+    padding-top: 5%;
+}
+
+#hobbies-list {
+    background-color: white;
+    padding-top: 5%;
+}
+
+#hobbies-list li {
+    margin-top: 2%;
+}
+
+
+/* Movies Right Column */
+
+#movies {
+    background-color: #f3f3f3;
+}
+
+#movies-list {
+    background-color: white;
+    padding-top: 5%;
+}
+
+#movies-list li {
+    margin-top: 2%;
+}
