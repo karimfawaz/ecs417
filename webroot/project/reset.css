@@ -1,0 +1,60 @@
+body,
+div,
+head,
+header,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+hgroup,
+nav,
+a,
+figure,
+img,
+figcaption,
+section,
+article,
+dl,
+dt,
+dd,
+strong,
+table,
+tr,
+td,
+th,
+caption thead,
+tbody,
+tfoot {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    animation: none;
+    background-attachment: scroll;
+    background-image: none;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-color: inherit;
+    content: normal;
+    cursor: auto;
+    direction: ltr;
+    letter-spacing: normal;
+    max-height: none;
+    max-width: none;
+    min-height: 0;
+    min-width: 0;
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+    white-space: normal;
+    word-spacing: normal;
+}
