@@ -1,0 +1,26 @@
+/* General Styling */
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: white;
+}
+
+
+/* Header & NAV Styling */
+
+#web-title {
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-size: 150%;
+}
+
+
+/* About Me Styling */
+
+#about-me img {
+    padding: 1%;
+    background-color: white;
+}
