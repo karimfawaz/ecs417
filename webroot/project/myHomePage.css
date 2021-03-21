@@ -19,7 +19,7 @@ body {
 }
 
 .section-title svg {
-    width: 5rem;
+    width: 4rem;
 }
 
 .section-title h2 {
@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb {
     position: fixed;
     background-color: var(--bg-main);
     transition: width 200ms ease;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-item {
@@ -112,8 +112,11 @@ body::-webkit-scrollbar-thumb {
 /* Styling Main */
 
 main {
-    padding-left: 5rem;
+    padding-left: 3rem;
 }
+
+
+/* About Me Section Styling */
 
 .about-me {
     display: flex;
@@ -121,13 +124,27 @@ main {
     align-items: center;
 }
 
-.about-me p {
-    width: 75%;
-}
-
 .about-me img {
     width: 125rem;
     height: auto;
+}
+
+
+/* Education Section Styling */
+
+.education {
+    color: white;
+    background-color: var(--bg-main);
+    padding: 1rem;
+}
+
+.education-table {
+    padding-top: 1rem;
+}
+
+.education td {
+    padding-left: 5rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -148,7 +165,7 @@ main {
 .spinning-SVG {
     animation: spinningSVG 5s;
     animation-iteration-count: infinite;
-    z-index: -50;
+    z-index: 1;
 }
 
 
