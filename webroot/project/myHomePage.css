@@ -115,6 +115,35 @@ main {
     padding-left: 3rem;
 }
 
+.dark-theme {
+    background-color: var(--bg-main);
+    color: white;
+}
+
+main div {
+    padding: 1rem;
+}
+
+
+/* Header Styling */
+
+header {
+    background-color: var(--bg-main);
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+hgroup h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+hgroup h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
 
 /* About Me Section Styling */
 
@@ -125,7 +154,7 @@ main {
 }
 
 .about-me img {
-    width: 125rem;
+    width: 25rem;
     height: auto;
 }
 
@@ -134,19 +163,20 @@ main {
 }
 
 
+/* Skills Styling */
+
+
 /* Education Section Styling */
 
-.education {
-    color: white;
-    background-color: var(--bg-main);
-    padding: 1rem;
+#education {
+    color: black;
 }
 
 .education-table {
     padding-top: 1rem;
 }
 
-.education td {
+#education td {
     padding-left: 5rem;
     padding-bottom: 1rem;
 }
