@@ -48,12 +48,14 @@ tfoot {
     cursor: auto;
     direction: ltr;
     letter-spacing: normal;
+    list-style: none;
     max-height: none;
     max-width: none;
     min-height: 0;
     min-width: 0;
     opacity: 1;
     overflow: visible;
+    text-decoration: none;
     visibility: visible;
     white-space: normal;
     word-spacing: normal;
