@@ -129,6 +129,10 @@ main {
     height: auto;
 }
 
+.about-me figcaption {
+    visibility: hidden;
+}
+
 
 /* Education Section Styling */
 
