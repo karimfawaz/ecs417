@@ -112,7 +112,7 @@ body::-webkit-scrollbar-thumb {
 /* Styling Main */
 
 main {
-    padding-left: 1rem;
+    padding-left: 5rem;
 }
 
 .about-me {
@@ -121,9 +121,13 @@ main {
     align-items: center;
 }
 
+.about-me p {
+    width: 75%;
+}
+
 .about-me img {
-    margin-left: 10rem;
-    width: 25rem;
+    width: 125rem;
+    height: auto;
 }
 
 
