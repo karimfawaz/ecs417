@@ -35,6 +35,7 @@ tfoot {
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-weight: normal;
     vertical-align: baseline;
     animation: none;
     background-attachment: scroll;

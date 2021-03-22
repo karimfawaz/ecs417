@@ -11,7 +11,7 @@
 
 body {
     color: black;
-    background-color: white;
+    background-color: bisque;
 }
 
 .section-title {
@@ -19,7 +19,9 @@ body {
 }
 
 .section-title svg {
-    width: 4rem;
+    width: 3rem;
+    max-width: 4rem;
+    height: 3rem;
 }
 
 .section-title h2 {
@@ -48,6 +50,20 @@ body::-webkit-scrollbar-thumb {
 
 
 /* NavBar Styling */
+
+.nav-bar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+}
+
+.nav-bar:hover {
+    width: 16rem;
+}
+
+.nav-bar:hover .link-text {
+    display: block;
+}
 
 .logo {
     font-weight: bold;
@@ -98,6 +114,7 @@ body::-webkit-scrollbar-thumb {
 .nav-link svg {
     min-width: 2rem;
     max-width: 2rem;
+    height: 2rem;
     margin: 0 1.5rem;
     color: aquamarine;
 }
@@ -109,15 +126,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* Styling Main */
-
-main {
-    padding-left: 3rem;
-}
+/* Main Styling */
 
 .dark-theme {
     background-color: var(--bg-main);
-    color: white;
+    color: bisque;
 }
 
 main div {
@@ -137,11 +150,46 @@ header {
 hgroup h1 {
     font-size: 40px;
     letter-spacing: 5px;
+    border-right: 4px solid aquamarine;
+    animation: blink .75s infinite;
+    width: 13ch;
+    margin-left: 29rem;
 }
 
 hgroup h2 {
     font-size: 25px;
     letter-spacing: 5px;
+    animation: type 3s steps(50) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 29ch;
+    border-right: 4px solid aquamarine;
+    margin-left: 25rem;
+}
+
+
+/* Typing Effect */
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 29ch;
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: aquamarine;
+    }
 }
 
 
@@ -182,6 +230,73 @@ hgroup h2 {
 }
 
 
+/* Skills and Achv. Styling*/
+
+.skillach-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divider {
+    border-left: 6px solid white;
+    height: 10rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill-type,
+.achievements-list-title {
+    font-size: 25px;
+    border-bottom: solid 3px white;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.skills-list {
+    padding: 2rem;
+}
+
+.achievement {
+    padding: 1rem;
+}
+
+.achievement-description {
+    font-size: 12px;
+}
+
+
+/* Contact Styling */
+
+#contact-options {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.contact-item svg {
+    width: 4rem;
+}
+
+.contact-item svg,
+.contact-text {
+    color: aquamarine;
+}
+
+.contact-item {
+    align-items: center;
+    text-align: center;
+}
+
+
 /* Making SVG rotate endlessly */
 
 @keyframes spinningSVG {
@@ -208,39 +323,11 @@ hgroup h2 {
 
 /* For Big Screens */
 
-@media only screen and (min-width:600px) {
-    .nav-bar {
-        top: 0;
-        width: 5rem;
-        height: 100vh;
-    }
-    .nav-bar:hover {
-        width: 16rem;
-    }
-    .nav-bar:hover .link-text {
-        display: block;
-    }
-}
 
+/* Footer Styling */
 
-/* For Small Screens */
-
-@media only screen and (max-width:600px) {
-    .nav-bar {
-        bottom: 0;
-        width: 100vw;
-        height: 4rem;
-    }
-    .logo {
-        display: none;
-    }
-    .nav {
-        flex-direction: row;
-    }
-    .nav-link {
-        justify-content: center;
-    }
-    main {
-        margin: 0;
-    }
+footer {
+    text-align: center;
+    opacity: 0.7;
+    padding: 2rem;
 }
