@@ -166,47 +166,25 @@ main div {
 }
 
 
-/* About Us Styling */
+/* Blog Posts Preview */
 
-.about-us {
+.posts {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 5rem;
-    background-color: var(--bg-main);
-    border-radius: 25px;
-    color: bisque;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.about-us img {
-    border-radius: 30px;
-    height: 14rem;
-    width: 10rem;
-    object-fit: fill;
-    padding: 0.5rem;
-}
-
-.project {
-    padding: 2rem;
-    margin: 5rem;
-    background-color: var(--bg-main);
-    color: bisque;
-    border-radius: 25px;
-}
-
-.project-imgs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.project-name {
+.post-title {
     font-size: 30px;
 }
 
-.project-imgs img {
-    border-radius: 25px;
-    height: 10rem;
-    width: 10rem;
-    object-fit: contain;
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divider-blog {
+    border-bottom: 4px solid black;
+    width: 45rem;
 }

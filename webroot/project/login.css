@@ -128,19 +128,42 @@ body::-webkit-scrollbar-thumb {
 
 /* Form Styling */
 
+.section-title h2 {
+    margin-bottom: 3rem;
+}
+
 form {
     width: 280px;
     position: absolute;
-    top: 12rem;
+    top: 10rem;
     left: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--bg-main);
+    color: bisque;
+    padding: 3rem;
+    border-radius: 25px;
 }
 
 .field {
     padding: 0.5rem;
+}
+
+input {
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+.additional-info {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+a {
+    color: bisque;
+    text-decoration: underline;
 }
 
 

@@ -166,47 +166,50 @@ main div {
 }
 
 
-/* About Us Styling */
+/* Form Styling */
 
-.about-us {
+form {
+    width: 280px;
+    position: absolute;
+    top: 10rem;
+    left: 35rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--bg-main);
-    border-radius: 25px;
     color: bisque;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 25px;
 }
 
-.about-us img {
-    border-radius: 30px;
-    height: 14rem;
-    width: 10rem;
-    object-fit: fill;
+.field {
     padding: 0.5rem;
 }
 
-.project {
-    padding: 2rem;
-    margin: 5rem;
-    background-color: var(--bg-main);
+input,
+textarea,
+button {
+    border-radius: 25px;
+    padding: 0.5rem;
+}
+
+textarea {
+    max-height: 15rem;
+    min-height: 10rem;
+    max-width: 17rem;
+    min-width: 15rem;
+}
+
+.additional-info {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+a {
     color: bisque;
-    border-radius: 25px;
-}
-
-.project-imgs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.project-name {
-    font-size: 30px;
-}
-
-.project-imgs img {
-    border-radius: 25px;
-    height: 10rem;
-    width: 10rem;
-    object-fit: contain;
+    text-decoration: underline;
 }

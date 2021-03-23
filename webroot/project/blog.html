@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="login.css">
-
-    <title>Blog - Log In</title>
+    <link rel="stylesheet" href="blog.css">
+    <title>Blog - Karim Fawaz</title>
 </head>
+
 
 <body>
     <nav class="nav-bar">
@@ -77,24 +77,50 @@
         </ul>
     </nav>
     <main>
-        <form action="POST">
+
+        <div id="blog">
             <div class="section-title">
-                <svg class="spinning-SVG" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sign-in-alt" class="svg-inline--fa fa-sign-in-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 448h-84c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h84c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32h-84c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h84c53 0 96 43 96 96v192c0 53-43 96-96 96zm-47-201L201 79c-15-15-41-4.5-41 17v96H24c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24h136v96c0 21.5 26 32 41 17l168-168c9.3-9.4 9.3-24.6 0-34z"></path></svg>
-                <h2>Log In</h2>
+                <svg class="spinning-SVG" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="signature" class="svg-inline--fa fa-signature fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M623.2 192c-51.8 3.5-125.7 54.7-163.1 71.5-29.1 13.1-54.2 24.4-76.1 24.4-22.6 0-26-16.2-21.3-51.9 1.1-8 11.7-79.2-42.7-76.1-25.1 1.5-64.3 24.8-169.5 126L192 182.2c30.4-75.9-53.2-151.5-129.7-102.8L7.4 116.3C0 121-2.2 130.9 2.5 138.4l17.2 27c4.7 7.5 14.6 9.7 22.1 4.9l58-38.9c18.4-11.7 40.7 7.2 32.7 27.1L34.3 404.1C27.5 421 37 448 64 448c8.3 0 16.5-3.2 22.6-9.4 42.2-42.2 154.7-150.7 211.2-195.8-2.2 28.5-2.1 58.9 20.6 83.8 15.3 16.8 37.3 25.3 65.5 25.3 35.6 0 68-14.6 102.3-30 33-14.8 99-62.6 138.4-65.8 8.5-.7 15.2-7.3 15.2-15.8v-32.1c.2-9.1-7.5-16.8-16.6-16.2z"></path></svg>
+                <h2>Blog</h2>
             </div>
 
-            <div class="field">
-                <input type="text" name="email" class="input" placeholder="Email" />
+            <div class="posts">
+                <div class="post">
+                    <div class="post-header">
+                        <h2 class="post-title">This is the Blog Post Title - Preview</h2>
+                        <h2 class="post-date">21-03-2021</h2>
+                    </div>
+                    <div class="post-description">In this field we will add all of the blog post's information</div>
+                </div>
+                <div class="divider-blog"></div>
+                <div class="post" class="dark-theme">
+                    <div class="post-header">
+                        <h2 class="post-title">This is the Blog Post Title - Preview</h2>
+                        <h2 class="post-date">21-03-2021</h2>
+                    </div>
+                    <div class="post-description">In this field we will add all of the blog post's information</div>
+                </div>
+                <div class="divider-blog"></div>
+                <div class="post">
+                    <div class="post-header">
+                        <h2 class="post-title">This is the Blog Post Title - Preview</h2>
+                        <h2 class="post-date">21-03-2021</h2>
+                    </div>
+                    <div class="post-description">In this field we will add all of the blog post's information</div>
+                </div>
+                <div class="divider-blog"></div>
+                <div class="post" class="dark-theme">
+                    <div class="post-header">
+                        <h2 class="post-title">This is the Blog Post Title - Preview</h2>
+                        <h2 class="post-date">21-03-2021</h2>
+                    </div>
+                    <div class="post-description">In this field we will add all of the blog post's information</div>
+                </div>
+                <div class="divider-blog"></div>
             </div>
-            <div class="field">
-                <input type="password" class="input" placeholder="Password" />
-            </div>
-            <input class="btn" type="submit" value="Sign In">
-            <p class="additional-info">For testing purposes, please only tap on the link below</p>
-            <a href="./post.html">Go to Content Creation Page </a>
-        </form>
+        </div>
+
     </main>
-
 </body>
 
 </html>
