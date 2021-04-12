@@ -17,9 +17,8 @@ if ($conn->connect_error) {
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $sql = "INSERT INTO blog (TITLE,BODY) VALUES('$title','$body')";
-
-    $result = mysqli_query($conn, $sql);
-    if ($result == true) {
+    
+    if (mysqli_query($conn, $sql)) {
         header("Location: blog.php");
     } else {
         echo "error";
